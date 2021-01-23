@@ -1,0 +1,34 @@
+.photodiary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  &-desc {
+    color: #b4ad9e;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 2.8rem;
+  }
+
+  &-title {
+    color: #626262;
+    font-size: 3rem;
+    margin-bottom: 3.4rem;
+
+    @include phones {
+      font-size: 2.1rem;
+    }
+  }
+
+  &-text {
+    color: #626262;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    
+    @include phones {
+      font-size: 1.3rem;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.footer {
+  padding: 4rem 0;
+  background-color: #f0f0f0;
+
+  &-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include phones {
+      flex-direction: column;
+      
+    }
+  }
+
+  .left-link {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-right: 1.7rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+
+
+    &-link {
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      margin-right: 2.1rem;
+    }
+  }
+
+  .right-list {
+    display: flex;
+  }
+
+  .right-item {
+    margin-right: 1.7rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+    
+    &__icon {
+      width: 1.8rem;
+      height: 1.4rem;
+      fill: #626262;
+      stroke: #626262;
+    }
+  }
+}

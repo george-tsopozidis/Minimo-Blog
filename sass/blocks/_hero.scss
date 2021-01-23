@@ -1,0 +1,43 @@
+.hero {
+  padding: 7rem 0;
+
+  &-contain {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.header {
+  margin-bottom: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .nav {
+
+    @include tablets {
+      display: none;
+    }
+
+    &-list {
+      display: flex;
+      align-items: center;
+    }
+
+    &-item {
+      margin-left: 12rem;
+      color: #626262;
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      text-transform: uppercase;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.image-img {
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+// media import
+@import "./layouts/_media";
+
+// rest imports
+@import "./layouts/fonts";
+@import "./layouts/reset";
+@import "./blocks/hero";
+@import "./blocks/burger";
+@import "./blocks/main-content";
+@import "./blocks/section-photodiary";
+@import "./blocks/section-comment";
+@import "./blocks/section-separator";
+@import "./blocks/lifestyle";
+@import "./blocks/footer";

@@ -1,0 +1,39 @@
+.separator {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7.4rem 0;
+
+  &-title {
+    color: #333333;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 8rem;
+
+    @include phones {
+      font-size: 1.8rem;
+    }
+  }
+
+  &-form {
+    position: relative;
+  }
+
+  &-input {
+    color: #626262;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+    width: 100%;
+    border: transparent;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1.4rem;
+  }
+
+  &-link {
+    position: absolute;
+    top: 8%;
+    right: 0;
+  }
+}
